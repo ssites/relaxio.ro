@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+html, body {
+  @apply w-full;
+  @apply h-full;
+}
+
+body {
+  @apply bg-main;
+  @apply overflow-x-hidden;
+  @apply font-main;
+}
