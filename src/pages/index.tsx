@@ -3,10 +3,6 @@
 import { NextPage } from "next";
 import Head from "next/head";
 
-//= Style & Assets
-// Own
-import "../styles/index.css";
-
 const Home: NextPage = () => {
   return (
     <div className="flex flex-col items-center relative px-4">
